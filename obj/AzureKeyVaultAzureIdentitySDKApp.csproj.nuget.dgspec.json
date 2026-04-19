@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/khusan_rashidov/Desktop/AzureKeyVaultAzureIdentitySDKApp/AzureKeyVaultAzureIdentitySDKApp.csproj": {}
+  },
+  "projects": {
+    "/Users/khusan_rashidov/Desktop/AzureKeyVaultAzureIdentitySDKApp/AzureKeyVaultAzureIdentitySDKApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/khusan_rashidov/Desktop/AzureKeyVaultAzureIdentitySDKApp/AzureKeyVaultAzureIdentitySDKApp.csproj",
+        "projectName": "AzureKeyVaultAzureIdentitySDKApp",
+        "projectPath": "/Users/khusan_rashidov/Desktop/AzureKeyVaultAzureIdentitySDKApp/AzureKeyVaultAzureIdentitySDKApp.csproj",
+        "packagesPath": "/Users/khusan_rashidov/.nuget/packages/",
+        "outputPath": "/Users/khusan_rashidov/Desktop/AzureKeyVaultAzureIdentitySDKApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/khusan_rashidov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
